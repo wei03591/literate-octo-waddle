@@ -1,0 +1,12 @@
+/**index.wxss**/
+/**index.wxss**/
+.title{
+  font-family : serif ;
+  text-align : center ;
+  color : rgb(72, 255, 0);
+}
+.box{
+  margin: 20rpx;
+  padding:20rpx;
+  border:1px solid rgb(255, 0, 0);
+}

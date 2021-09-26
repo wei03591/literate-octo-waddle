@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="box">
+  <view class = 'title'>电科19-2 董经纬 彩票机</view>
+  <view>彩票号为：</view>
+  <view wx:for= '{{rand}}'>{{item}}</view>
+  <button type='primary'bindtap='newRand'>刷新</button>
+</view>
